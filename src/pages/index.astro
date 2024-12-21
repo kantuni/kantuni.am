@@ -1,11 +1,21 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Books from "../components/Books.astro"
+import Layout from "../layouts/Layout.astro"
 ---
 
 <Layout>
-	<Welcome />
+  <header>
+    <p>
+      Hello, friend 👋.<br />
+      Welcome to <a href="https://github.com/kantuni" target="_blank">my</a>
+      space on the Internet!
+    </p>
+  </header>
+  <main>
+    <Books />
+  </main>
+  <footer>
+    The source code is available on
+    <a href="https://github.com/kantuni/kantuni.am" target="_blank">GitHub</a>.
+  </footer>
 </Layout>

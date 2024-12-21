@@ -1,0 +1,184 @@
+---
+type Book = {
+  title: string
+  author: string
+  url: string
+  rating?: number
+}
+
+const books: Book[] = [
+  {
+    title:
+      "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    author: "James Clear",
+    url: "https://www.goodreads.com/book/show/40121378-atomic-habits",
+  },
+  {
+    title: "Elm in Action",
+    author: "Richard Feldman",
+    url: "https://www.goodreads.com/book/show/31441704-elm-in-action",
+  },
+  {
+    title: "Profession",
+    author: "Isaac Asimov",
+    url: "https://www.goodreads.com/en/book/show/13614182",
+  },
+  {
+    title:
+      "Джедайские техники: Как воспитать свою обезьяну, опустошить инбокс и сберечь мыслетопливо",
+    author: "Максим Дорофеев",
+    url: "https://www.goodreads.com/en/book/show/34656521",
+  },
+  {
+    title: "Flatland: A Romance of Many Dimensions",
+    author: "Edwin A. Abbott",
+    url: "https://www.goodreads.com/book/show/433567",
+  },
+  {
+    title: "Origin",
+    author: "Dan Brown",
+    url: "https://www.goodreads.com/en/book/show/32283133",
+  },
+  {
+    title: "The Rosie Project",
+    author: "Graeme Simsion",
+    url: "https://www.goodreads.com/book/show/16181775-the-rosie-project",
+  },
+  {
+    title:
+      "Commando Dad: Basic Training: How to Be an Elite Dad or Carer from Birth to Three Years",
+    author: "Neil Sinclair",
+    url: "https://www.goodreads.com/en/book/show/14498756",
+  },
+  {
+    title:
+      "What Hedge Funds Really Do: An Introduction to Portfolio Management",
+    author: "Philip J. Romero, Tucker Balch",
+    url: "https://www.goodreads.com/en/book/show/23210514",
+  },
+  {
+    title: "Hackers & Painters: Big Ideas from the Computer Age",
+    author: "Paul Graham",
+    url: "https://www.goodreads.com/en/book/show/41793.Hackers_Painters",
+  },
+  {
+    title: "Harry Potter and the Sorcerer's Stone",
+    author: "J.K. Rowling",
+    url: "https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone",
+  },
+  {
+    title: "Refactoring UI",
+    author: "Adam Wathan, Steve Schoger",
+    url: "https://www.goodreads.com/book/show/43190966-refactoring-ui",
+  },
+  {
+    title: "Аэропорт",
+    author: "Arthur Hailey",
+    url: "https://www.goodreads.com/book/show/3503962",
+  },
+  {
+    title: "Математика для гуманитариев. Живые лекции",
+    author: "Алексей Савватеев",
+    url: "https://www.goodreads.com/book/show/49784895",
+  },
+  {
+    title: "Extremely Loud & Incredibly Close",
+    author: "Jonathan Safran Foer",
+    url: "https://www.goodreads.com/book/show/4588.Extremely_Loud_Incredibly_Close",
+  },
+  {
+    title: "The Face of Another",
+    author: "Kōbō Abe",
+    url: "https://www.goodreads.com/book/show/10000.The_Face_of_Another",
+  },
+  {
+    title: "How Google Works",
+    author: "Eric Schmidt, Jonathan Rosenberg",
+    url: "https://www.goodreads.com/book/show/23158207-how-google-works",
+  },
+  {
+    title: "The Pragmatic Programmer: From Journeyman to Master",
+    author: "Andrew Hunt, David Thomas",
+    url: "https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer",
+  },
+  {
+    title: "Algorithms to Live By: The Computer Science of Human Decisions",
+    author: "Brian Christian, Tom Griffiths",
+    url: "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
+  },
+  {
+    title:
+      "A Brief History of Mathematical Thought: Key concepts and where they come from",
+    author: "Luke Heaton",
+    url: "https://www.goodreads.com/book/show/25058283-a-brief-history-of-mathematical-thought",
+  },
+  {
+    title: "The Little Prince",
+    author: "Antoine de Saint-Exupéry",
+    url: "https://www.goodreads.com/book/show/157993.The_Little_Prince",
+  },
+  {
+    title: "Flowers for Algernon",
+    author: "Daniel Keyes",
+    url: "https://www.goodreads.com/book/show/18373.Flowers_for_Algernon",
+    rating: 10,
+  },
+  {
+    title: "Стив Джобс. Уроки лидерства",
+    author: "Jay Elliot",
+    url: "https://www.goodreads.com/book/show/24227921",
+  },
+  {
+    title: "Как чашка за чашкой строилась Starbucks",
+    author: "Howard Schultz",
+    url: "https://www.goodreads.com/book/show/29626847",
+  },
+  {
+    title:
+      "The Man Who Loved Only Numbers: The Story of Paul Erdős and the Search for Mathematical Truth",
+    author: "Paul Hoffman",
+    url: "https://www.goodreads.com/book/show/714583.The_Man_Who_Loved_Only_Numbers",
+  },
+  {
+    title: "The Joy of X: A Guided Tour of Math, from One to Infinity",
+    author: "Steven Strogatz",
+    url: "https://www.goodreads.com/book/show/13356649-the-joy-of-x",
+  },
+  {
+    title: "Head First JavaScript",
+    author: "Michael Morrison",
+    url: "https://www.goodreads.com/book/show/1760441.Head_First_JavaScript",
+  },
+  {
+    title: "Изучаем HTML, XHTML и CSS",
+    author: "Elisabeth Robson, Eric Freeman",
+    url: "https://www.goodreads.com/book/show/38477770-html-xhtml-css",
+  },
+  {
+    title: "127 часов. Между молотом и наковальней",
+    author: "Aron Ralston",
+    url: "https://www.goodreads.com/book/show/34844594-127",
+  },
+]
+---
+
+<section>
+  <hgroup>
+    <h2>Books I've read so far</h2>
+    <p>
+      The list below contains only the books read outside of the
+      school/university curriculum.
+    </p>
+  </hgroup>
+  <ol reversed="true">
+    {
+      books.map(({ title, author, url, rating }) => (
+        <li>
+          <a href={url} target="_blank" set:text={title} />
+          by {author}
+          {rating && <mark>{rating}/10</mark>}
+        </li>
+      ))
+    }
+  </ol>
+</section>
