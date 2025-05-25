@@ -11,7 +11,7 @@
     "@picocss/pico": "^2.0.6"
   },
   "devDependencies": {
-    "astro": "^5.1.1",
+    "astro": "^5.8.0",
     "astro-purgecss": "^5.0.0",
     "purgecss": "^7.0.2"
   }
