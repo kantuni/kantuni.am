@@ -11,8 +11,11 @@
     "@picocss/pico": "^2.0.6"
   },
   "devDependencies": {
-    "astro": "^5.8.0",
+    "astro": "^5.9.2",
     "astro-purgecss": "^5.0.0",
     "purgecss": "^7.0.2"
+  },
+  "engines": {
+    "node": "^22.0.0"
   }
 }
